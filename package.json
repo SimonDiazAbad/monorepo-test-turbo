@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "turbo dev",
     "build": "turbo build",
     "api:dev": "pnpm run dev --filter=api",
+    "api:test": "pnpm run test --filter=api",
     "web:dev": "pnpm run dev --filter=client"
   },
   "keywords": [],
