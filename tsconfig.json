@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@api/*": [
+                "./apps/api/*"
+            ],
+            "@client/*": [
+                "./apps/client/*"
+            ]
+        }
+    }
+}
